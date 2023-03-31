@@ -52,8 +52,8 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1em;
-    position: absolute;
+    padding: 0;
+    position: static;
     bottom: 0;
     width: 100%;
 }
@@ -70,6 +70,7 @@ footer a:hover {
 @media screen and (max-width: 600px) {
     .galeria {
         flex-direction: column;
+        align-content: center;
     }
 }
 
