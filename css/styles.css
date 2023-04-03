@@ -67,6 +67,11 @@ footer a:hover {
     text-decoration: underline;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 @media screen and (max-width: 600px) {
     .galeria {
         flex-direction: column;
@@ -74,6 +79,19 @@ footer a:hover {
     }
 }
 
+.boton-comprar {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.boton-comprar:hover {
+    background-color: #45a049;
+}
 
 
 
